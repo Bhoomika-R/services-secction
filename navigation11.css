@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+   width: 100%;
+   height: 100vh;
+   background: white;
+   margin-left: -10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+   
+}
+.container .service {
+    margin: 100px;
+    border-left: 3px solid #CACCCE;
+    padding: 50px;
+    text-transform: capitalize;
+    margin: 50px;
+  
+}
+.container .service:hover {
+    background: transparent;
+    border-left: 3px solid #212529;
+}
+
+.service .heading {
+    margin-bottom: 20px;
+    color: orangered;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.service .buttons {
+    line-height: 20px;
+    width: 100px;
+    height: 33px;
+    border: 2px solid #075E54;
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: white;
+    background: #128C7E;
+    font-size: 15px;
+
+}
+.service .buttons:hover {
+    color: black;
+    background: transparent;
+}
+.service .paragraph {
+    width: 150px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+}
+/* .fa-ticket-alt {
+      color: #686868;
+}
+.fa-plane-departure {
+
+}
+.fa-hamburger {
+
+}
+.fa-users-cog {
+
+} */
